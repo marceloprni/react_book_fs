@@ -1,0 +1,28 @@
+
+npx create-vite my-react-app --template react
+npm install
+npm run dev
+
+
+// module.js
+export default function() {
+  console.log("Função padrão exportada");
+}
+
+// anotherFile.js
+import myFunction from './module.js';
+myFunction(); // "Função padrão exportada"
+
+// module.js
+export function sayHello() {
+  console.log("Hello!");
+}
+
+export const greeting = "Hi!";
+
+// anotherFile.js
+import { sayHello, greeting } from './module.js';
+sayHello(); // "Hello!"
+console.log(greeting); // "Hi!"
+
+import * as TodosComponente from './module.js';
