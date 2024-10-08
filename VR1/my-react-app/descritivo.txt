@@ -1,9 +1,4 @@
 
-npx create-vite my-react-app --template react
-npm install
-npm run dev
-
-
 // module.js
 export default function() {
   console.log("Função padrão exportada");
