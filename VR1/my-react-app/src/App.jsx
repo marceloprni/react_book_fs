@@ -13,6 +13,10 @@ import ButtonTypes from './componentes/buttonEnums';
 import HelloMother from './componentes/propTypesDefault';
 import DesSaude from './componentes/propTypesDescruct';
 import { SaudacaoParatodos, SaudacaoParaAll } from './componentes/propDestruct';
+import PropTypesArray from './componentes/PropTypesArray';
+import Contador2 from './componentes/Contador';
+import Dobrador from './componentes/Dobrador';
+import Alternador from './componentes/Alternador';
 
 function App() {
   const frutas = ['maça', 'banana', 'laranja']
@@ -41,15 +45,19 @@ function App() {
       <Mensagem texto={texto} />
       <button onClick={handleChange}>Alterar Texto</button>,
       <Contador />
-      <Saudacao nome={'marcelo'} idade={13}/>
+      <Saudacao nome={'marcelo'}/>
       <AppWorld text={'vejo como isso e bom'}/>
       <UserProfile nome={'larissa'} email={'lari@gmail.com'} age={23} />
       <NumberList numbers={AgeNumber}/>
-      <ButtonTypes />
+      <ButtonTypes type={'submit'}/>
       <HelloMother />
       <DesSaude />
       <SaudacaoParaAll nome={'marcelo'}/>
-    </div>
+      <PropTypesArray user={pessoa} />
+      <Contador2 />
+      <Dobrador />
+      <Alternador />
+   </div>
   )
   
 }

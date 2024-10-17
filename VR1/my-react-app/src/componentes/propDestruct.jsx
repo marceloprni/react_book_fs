@@ -10,8 +10,10 @@ function SaudacaoParaAll(props) {
     const mensgame = `Olá, ${nome}`
     return <div>
         <h1>{mensgame}</h1>
+
          {/* <button tipo="button">Clique aqui</button> = ...propsbutton */}
         <button {...propsbutton}/>
+
         <button {...propsButton2} onClick={() => alert('Clicado!')}>Clique aqui 2</button>
     </div>
 }

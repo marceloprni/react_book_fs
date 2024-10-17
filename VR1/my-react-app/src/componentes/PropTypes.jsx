@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 
+{/* voce pode colocar o valor direto na destructing - nome = 'Marcelo', */}
 function Saudacao({ nome, idade }) {
   return (
     <div>
@@ -22,12 +23,10 @@ Saudacao.defaultProps = {
 
 export default Saudacao;
 
-/*
-PropTypes.string:  Indica que a prop deve ser uma string.
-PropTypes.number:  Indica que a prop deve ser um número. 
-PropTypes.bool:  Indica que a prop deve ser um valor booleano. 
-PropTypes.array:  Indica que a prop deve ser um array. 
-PropTypes.object:  Indica que a prop deve ser um objeto.,
-PropTypes.func:  Indica que a prop deve ser uma função. 
-PropTypes.element: Indica que a prop deve ser um elemento React.
- */
+//PropTypes.string: Indica que a prop deve ser uma string.
+//PropTypes.number:  Indica que a prop deve ser um número. 
+//PropTypes.bool:  Indica que a prop deve ser um valor booleano. 
+//PropTypes.array:  Indica que a prop deve ser um array. 
+//PropTypes.object:  Indica que a prop deve ser um objeto.,
+//PropTypes.func:  Indica que a prop deve ser uma função. 
+//PropTypes.element: Indica que a prop deve ser um elemento React.
