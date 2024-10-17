@@ -17,6 +17,7 @@ import PropTypesArray from './componentes/PropTypesArray';
 import Contador2 from './componentes/Contador';
 import Dobrador from './componentes/Dobrador';
 import Alternador from './componentes/Alternador';
+import Multiplicador from './componentes/Multiplicador';
 
 function App() {
   const frutas = ['maça', 'banana', 'laranja']
@@ -57,6 +58,7 @@ function App() {
       <Contador2 />
       <Dobrador />
       <Alternador />
+      <Multiplicador />
    </div>
   )
   
