@@ -18,6 +18,8 @@ import Contador2 from './componentes/Contador';
 import Dobrador from './componentes/Dobrador';
 import Alternador from './componentes/Alternador';
 import Multiplicador from './componentes/Multiplicador';
+import ColorState from './componentes/ColorState';
+import BtnSome from './componentes/BtnSome';
 
 function App() {
   const frutas = ['maça', 'banana', 'laranja']
@@ -59,6 +61,8 @@ function App() {
       <Dobrador />
       <Alternador />
       <Multiplicador />
+      <ColorState />
+      <BtnSome />
    </div>
   )
   
