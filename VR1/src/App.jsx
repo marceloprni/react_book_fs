@@ -20,6 +20,8 @@ import Alternador from './componentes/Alternador';
 import Multiplicador from './componentes/Multiplicador';
 import ColorState from './componentes/ColorState';
 import BtnSome from './componentes/BtnSome';
+import ListaTarefa from './componentes/ListaTarefa';
+import CarregarDados from './componentes/fetchData';
 
 function App() {
   const frutas = ['maça', 'banana', 'laranja']
@@ -63,6 +65,8 @@ function App() {
       <Multiplicador />
       <ColorState />
       <BtnSome />
+      <ListaTarefa/>
+      <CarregarDados/> 
    </div>
   )
   

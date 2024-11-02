@@ -13,7 +13,9 @@ const BtnSome = () => {
   return (
     <div>
         <p  style={{ display:formato === true ? 'block' : 'none' }}>O tema atual</p>
-        <button onClick={alterarTema}>Alternar Tema</button>
+        {formato && <p>Texto visível!</p>}
+        <button onClick={alterarTema}>
+          {formato? 'Esconder': 'Mostrar'} Alternar Tema</button>
     </div>
   )
 }
