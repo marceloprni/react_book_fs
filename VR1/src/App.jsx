@@ -22,6 +22,9 @@ import ColorState from './componentes/ColorState';
 import BtnSome from './componentes/BtnSome';
 import ListaTarefa from './componentes/ListaTarefa';
 import CarregarDados from './componentes/fetchData';
+import ComponenteHook from './componentes/ComponenteHook';
+import ComponenteHook2 from './componentes/ComponenteHook2';
+import Formulario from './componentes/Formulario';
 
 function App() {
   const frutas = ['maça', 'banana', 'laranja']
@@ -67,6 +70,9 @@ function App() {
       <BtnSome />
       <ListaTarefa/>
       <CarregarDados/> 
+      <ComponenteHook/>
+      <ComponenteHook2/>
+      <Formulario />
    </div>
   )
   
