@@ -25,6 +25,11 @@ import CarregarDados from './componentes/fetchData';
 import ComponenteHook from './componentes/ComponenteHook';
 import ComponenteHook2 from './componentes/ComponenteHook2';
 import Formulario from './componentes/Formulario';
+import ComponentePai from './componentes/ComponentePai';
+import Exe1 from './componentes/Exe1';
+import Exe2 from './componentes/Exe2';
+import FormularioDuplo from './componentes/FormularioDuplo';
+import VerificarEmail from './componentes/VerificarEmail';
 
 function App() {
   const frutas = ['maça', 'banana', 'laranja']
@@ -73,6 +78,11 @@ function App() {
       <ComponenteHook/>
       <ComponenteHook2/>
       <Formulario />
+      <ComponentePai/>
+      <Exe1 />
+      <Exe2 />
+      <FormularioDuplo />
+      <VerificarEmail />
    </div>
   )
   
